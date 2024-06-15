@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="tackStyle.css" />
+  </head>
+  <!--class added to add background color to all pages-->
+  <body class="bodyStyle">
+    <!--A hastily constructed banner created in Photoshop with the site name placed in an image tag 
+        using a relative source located in an image folder-->
+    <img
+      id="jackBannerImage"
+      src="images/JacksBanner.png"
+      alt="Web Site Banner for Jack's Boots and Saddles"
+    />
+
+    <!--A double line break to force the Navbar down to a separate line. 
+        Sometimes I prefer a separate line for ease of discovery-->
+    <br /><br />
+
+    <!--A horizontal Navbar using relative links for the three pages of the site. 
+        The three pages are the home page, a store page and a contact page-->
+    <!--class added to center navbar between links and change text size and family-->
+    <div class="navBarStyle">
+      <!--Class added to spread links out-->
+      <a href="index.html">Home</a>
+      <a href="thetackshop.html">The Tack Shop</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!--Another double line break-->
+    <br /><br />
+    <!--A Header with a welcome for the page, the contacts page-->
+    <!--Class added to change top header size and font-family-->
+    <h1 class="pageTopLineHeader">
+      Contact: Here's how to get in touch. <br />
+      Call 555-555-5555, then:
+    </h1>
+    <!--Using a table to give contact data-->
+    <!--ID created to margin table 
+      and use text attributes consistant with site-->
+    <table id="phoneExtTable">
+      <thead>
+        <tr>
+          <th>Boots</th>
+          <th>---</th>
+          <th>Saddles</th>
+          <th>---</th>
+          <th>Hats</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nancy Sinatra</td>
+          <td></td>
+          <td>Ty Murray</td>
+          <td></td>
+          <td>Chris LeDoux</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>ext 10EEE</td>
+          <td></td>
+          <td>ext 16.5</td>
+          <td></td>
+          <td>ext 7 5/8</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--Text with line breaks offering email contact and adding customers to our email list-->
+    <p>
+      <!--CSS added for all paragraph text 
+      consistant with site text and italicized-->
+      If you would rather email, fill out the following form and we will get
+      back ASAP.<br />
+      Your name will not be given or sold to any third parties. We don't like
+      that either.<br />
+    </p>
+    <!--A form for email and mailing list-->
+    <!--Css added for form to make horizontal with flex-wrap 
+      and 120px margins -->
+    <form>
+      <input type="text" name="firstName" placeholder="First Name" /> <br />
+      <input type="text" name="lastName" placeholder="Last Name" /> <br />
+      <input type="text" name="email" placeholder="Email Address" /> <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

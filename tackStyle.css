@@ -1,0 +1,97 @@
+.bodyStyle {
+  background-color: rgb(201, 175, 139);
+}
+/*added background tile to body for color and texture*/
+body {
+  background-image: url(images/leatherTile.jfif);
+}
+
+#jackBannerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navBarStyle {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  margin-right: 40px;
+  /*unvisited link*/
+}
+a:link {
+  color: antiquewhite;
+}
+/*visited link*/
+a:visited {
+  color: burlywood;
+}
+/*mouse over link*/
+a:hover {
+  color: brown;
+  text-decoration: none;
+}
+/*selected link*/
+a:active {
+  color: silver;
+  text-decoration: none;
+}
+
+.pageTopLineHeader {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: brown 1px 1px;
+}
+
+#bottomLineHeader {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: brown 1px 1px;
+}
+
+#tackListStyle {
+  font-style: italic;
+  font-size: 24px;
+}
+
+#tackListStyle li {
+  margin-left: 100px;
+}
+
+.tackImages {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tackImageText {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-shadow: brown 1px 1px;
+}
+
+#phoneExtTable {
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-shadow: brown 1px 1px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-shadow: brown 1px 1px;
+  font-style: italic;
+}
+
+form {
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
